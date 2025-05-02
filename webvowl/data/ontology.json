@@ -1,0 +1,3988 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses"
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "179",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "220",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "167",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "241",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "201",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "225",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "182",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "342",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "244",
+    "type" : "owl:Class"
+  }, {
+    "id" : "222",
+    "type" : "owl:Class"
+  }, {
+    "id" : "347",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "178",
+    "type" : "owl:Class"
+  }, {
+    "id" : "279",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "286",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "159",
+    "type" : "owl:Class"
+  }, {
+    "id" : "386",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "387",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "302",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "326",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "338",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "345",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "388",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "389",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "363",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "365",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "367",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "369",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "156",
+    "type" : "owl:Class"
+  }, {
+    "id" : "371",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "373",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "385",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "359",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "361",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "194",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "330",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "37",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "354",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "187",
+    "type" : "owl:Class"
+  }, {
+    "id" : "161",
+    "type" : "owl:Class"
+  }, {
+    "id" : "207",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "197",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "131",
+    "type" : "owl:Class"
+  }, {
+    "id" : "237",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "192",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RaceAndCare",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RaceAndCare"
+    },
+    "id" : "33",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gyroscope",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gyroscope"
+    },
+    "id" : "34",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Locomotion",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Locomotion"
+    },
+    "id" : "38",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreCompetitionStage",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PreCompetitionStage"
+    },
+    "id" : "7",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PearsonCorreletionCoefficent",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PearsonCorreletionCoefficent"
+    },
+    "id" : "100",
+    "superClasses" : [ "89" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Propreté",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Propreté"
+    },
+    "id" : "104",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurPhysique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FacteurPhysique"
+    },
+    "id" : "114",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PhysiologicalIndicators",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PhysiologicalIndicators"
+    },
+    "subClasses" : [ "107" ],
+    "id" : "91",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteGeste",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "QualiteGeste"
+    },
+    "id" : "123",
+    "superClasses" : [ "124" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Rider",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rider"
+    },
+    "id" : "69",
+    "superClasses" : [ "125" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Health",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Health"
+    },
+    "id" : "126",
+    "superClasses" : [ "127" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heartrate",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Heartrate"
+    },
+    "id" : "107",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnicoTactique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FacteurTechnicoTactique"
+    },
+    "comment" : {
+      "undefined" : "L'analyse en temps réel d'une situation, ainsi que la mise en place d'une stratégie et avoir une connaissance aigue du réglement et des concurrents"
+    },
+    "id" : "174",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSociale",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BienetreSociale"
+    },
+    "id" : "179",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfHindlimb",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CanonOfHindlimb"
+    },
+    "id" : "74",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DeveloppementPoulain",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DeveloppementPoulain"
+    },
+    "id" : "22",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacilitéDuMouvement",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FacilitéDuMouvement"
+    },
+    "subClasses" : [ "118", "120" ],
+    "id" : "24",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SensorMeasurements"
+    },
+    "subClasses" : [ "122", "34", "83", "85", "87" ],
+    "id" : "35",
+    "superClasses" : [ "186" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Indicators"
+    },
+    "subClasses" : [ "89", "91", "93", "95" ],
+    "id" : "50",
+    "superClasses" : [ "51" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Training"
+    },
+    "subClasses" : [ "8", "2", "7", "1" ],
+    "id" : "79"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Forehead",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Forehead"
+    },
+    "id" : "59",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Veterinarian",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Veterinarian"
+    },
+    "id" : "72",
+    "superClasses" : [ "125" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FatigueDetection",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FatigueDetection"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DetectionFatigue1",
+      "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+      "labels" : {
+        "IRI-based" : "DetectionFatigue1"
+      }
+    } ],
+    "subClasses" : [ "50" ],
+    "id" : "51",
+    "superClasses" : [ "139" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TypeApproche",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TypeApproche"
+    },
+    "id" : "210",
+    "superClasses" : [ "194" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Human",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Human"
+    },
+    "subClasses" : [ "72", "69", "68" ],
+    "id" : "125"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Sternum",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sternum"
+    },
+    "id" : "53",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DuréeDeLiberté",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DuréeDeLiberté"
+    },
+    "id" : "120",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfForelimb",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CanonOfForelimb"
+    },
+    "id" : "62",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Scarum",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Scarum"
+    },
+    "id" : "48",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IndicateurPerformance"
+    },
+    "subClasses" : [ "178", "182", "114", "174", "124" ],
+    "id" : "93",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Compertement",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Compertement"
+    },
+    "subClasses" : [ "194", "163" ],
+    "id" : "148",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RootMeanSquareDeviation",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RootMeanSquareDeviation"
+    },
+    "id" : "103",
+    "superClasses" : [ "89" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DistanceEvitement",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DistanceEvitement"
+    },
+    "id" : "220",
+    "superClasses" : [ "194" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Dressage",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Dressage",
+      "undefined" : "Event"
+    },
+    "id" : "32",
+    "superClasses" : [ "134" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PresicisionTechnique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PresicisionTechnique"
+    },
+    "id" : "167",
+    "superClasses" : [ "124" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VitesseExécution",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VitesseExécution"
+    },
+    "id" : "150",
+    "superClasses" : [ "124" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreparationStage",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PreparationStage"
+    },
+    "id" : "8",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CognitionEquine",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CognitionEquine"
+    },
+    "id" : "241",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VarieteMouvement",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VarieteMouvement"
+    },
+    "id" : "146",
+    "superClasses" : [ "124" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SoundOfWelfare",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoundOfWelfare"
+    },
+    "id" : "17",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Pool",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pool"
+    },
+    "id" : "47",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#WellBeing",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WellBeing"
+    },
+    "subClasses" : [ "14" ],
+    "id" : "201",
+    "superClasses" : [ "127" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleVertical",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AngleVertical"
+    },
+    "id" : "87",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleSwing",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AngleSwing"
+    },
+    "id" : "85",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Topic"
+    },
+    "subClasses" : [ "192", "342", "126", "39", "201" ],
+    "id" : "127"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TransitionStage",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TransitionStage"
+    },
+    "id" : "2",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortThermique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConfortThermique"
+    },
+    "id" : "20",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SportingEvent",
+      "undefined" : "Event"
+    },
+    "subClasses" : [ "32", "237", "31" ],
+    "id" : "134"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteDeplacement",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "QualiteDeplacement"
+    },
+    "id" : "142",
+    "superClasses" : [ "124" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SafeFarrier",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SafeFarrier"
+    },
+    "id" : "26",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseRiding",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HorseRiding"
+    },
+    "subClasses" : [ "38" ],
+    "id" : "39",
+    "superClasses" : [ "127" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Lifes",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Lifes"
+    },
+    "id" : "225",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleTwist",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AngleTwist"
+    },
+    "id" : "122",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#KinematicIndiactors",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "KinematicIndiactors"
+    },
+    "subClasses" : [ "103", "100" ],
+    "id" : "89",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Cross",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cross",
+      "undefined" : "Event"
+    },
+    "id" : "31",
+    "superClasses" : [ "134" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Caretaker",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Caretaker"
+    },
+    "id" : "68",
+    "superClasses" : [ "125" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Horse"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse1",
+      "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+      "labels" : {
+        "IRI-based" : "Horse1"
+      }
+    } ],
+    "id" : "129"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurSocial",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FacteurSocial"
+    },
+    "id" : "182",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Video",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Video"
+    },
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gait",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gait"
+    },
+    "subClasses" : [ "109", "112" ],
+    "id" : "110",
+    "superClasses" : [ "187" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HappyAthlete",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HappyAthlete"
+    },
+    "id" : "13",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortRepos",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConfortRepos"
+    },
+    "subClasses" : [ "104", "116" ],
+    "id" : "19",
+    "superClasses" : [ "41" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Images",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Images"
+    },
+    "id" : "10",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Economy",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Economy"
+    },
+    "id" : "342",
+    "superClasses" : [ "127" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DimensionBox",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DimensionBox"
+    },
+    "id" : "116",
+    "superClasses" : [ "19" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Symetric",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Symetric"
+    },
+    "id" : "109",
+    "superClasses" : [ "110" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetitionStage",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CompetitionStage"
+    },
+    "id" : "1",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SevrageEnPratique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SevrageEnPratique"
+    },
+    "id" : "244",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IGGDOP",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IGGDOP"
+    },
+    "id" : "222",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "347",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurMental",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FacteurMental"
+    },
+    "id" : "178",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "279",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "286",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AbreuvementAdapté",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AbreuvementAdapté"
+    },
+    "id" : "159",
+    "superClasses" : [ "132" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "386",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "387",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "302",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "326",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "338",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "345",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "388",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "270",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SensorsPosition"
+    },
+    "subClasses" : [ "53", "59", "62", "57", "47", "48", "74" ],
+    "id" : "55",
+    "superClasses" : [ "186" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "389",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FréquencedeLiberté",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FréquencedeLiberté"
+    },
+    "id" : "118",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Heberegement"
+    },
+    "subClasses" : [ "19", "24", "20" ],
+    "id" : "41",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Camera",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Camera"
+    },
+    "subClasses" : [ "4", "10" ],
+    "id" : "5",
+    "superClasses" : [ "138" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Studies"
+    },
+    "subClasses" : [ "13", "17", "22", "26", "29", "179", "33", "241", "244", "222", "225" ],
+    "id" : "14",
+    "superClasses" : [ "201" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "363",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "176",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "365",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "367",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "369",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HealthStatus",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HealthStatus"
+    },
+    "id" : "156",
+    "superClasses" : [ "95" ]
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "371",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "373",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "385",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "98",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "359",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "361",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BonneRelationAnimal",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BonneRelationAnimal"
+    },
+    "subClasses" : [ "220", "210" ],
+    "id" : "194",
+    "superClasses" : [ "148" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ContactsSociaux",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ContactsSociaux"
+    },
+    "id" : "163",
+    "superClasses" : [ "148" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSaumur",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BienetreSaumur"
+    },
+    "id" : "29",
+    "superClasses" : [ "14" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InertialSensors"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Sensor1",
+      "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+      "labels" : {
+        "IRI-based" : "Sensor1"
+      }
+    } ],
+    "subClasses" : [ "55", "35" ],
+    "id" : "186",
+    "superClasses" : [ "138" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExperimentalObjectif",
+      "undefined" : "Project"
+    },
+    "subClasses" : [ "187", "51", "197" ],
+    "id" : "139"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "165",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "330",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "37",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalDevices",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExperimentalDevices"
+    },
+    "subClasses" : [ "186", "5" ],
+    "id" : "138"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "354",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "77",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#GaitClassifaction",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GaitClassifaction"
+    },
+    "subClasses" : [ "110" ],
+    "id" : "187",
+    "superClasses" : [ "139" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Morphometrie",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Morphometrie"
+    },
+    "id" : "161",
+    "superClasses" : [ "207" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CalculationMethods",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CalculationMethods"
+    },
+    "subClasses" : [ "161" ],
+    "id" : "207"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Asymetric",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Asymetric"
+    },
+    "id" : "112",
+    "superClasses" : [ "110" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AnimalPoseEstimation",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AnimalPoseEstimation"
+    },
+    "id" : "197",
+    "superClasses" : [ "139" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Withers",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Withers"
+    },
+    "id" : "57",
+    "superClasses" : [ "55" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FacteurTechnique"
+    },
+    "subClasses" : [ "146", "167", "150", "142", "123" ],
+    "id" : "124",
+    "superClasses" : [ "93" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AlimentationAdaptée",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AlimentationAdaptée"
+    },
+    "id" : "131",
+    "superClasses" : [ "132" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ShowJumping",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ShowJumping",
+      "undefined" : "Event"
+    },
+    "id" : "237",
+    "superClasses" : [ "134" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Acceleration",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Acceleration"
+    },
+    "id" : "83",
+    "superClasses" : [ "35" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Breeding",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Breeding"
+    },
+    "id" : "192",
+    "superClasses" : [ "127" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IndicateurBienetre"
+    },
+    "subClasses" : [ "148", "132", "41", "156" ],
+    "id" : "95",
+    "superClasses" : [ "50" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Alimentation",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Alimentation"
+    },
+    "subClasses" : [ "159", "131" ],
+    "id" : "132",
+    "superClasses" : [ "95" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "15",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "27",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "36",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "40",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "42",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "44",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "46",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "58",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "60",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "73",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "76",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "84",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "90",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "135",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "136",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "137",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "141",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "153",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "155",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "157",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "162",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "164",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "166",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "168",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "169",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "170",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "171",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "172",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "173",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "175",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "180",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "188",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "189",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "190",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "193",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "195",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "198",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "200",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "202",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "224",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "226",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "228",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "230",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "231",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "232",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "233",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "235",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "242",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "245",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "246",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "247",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "248",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "249",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "250",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "251",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "252",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "253",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "254",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "255",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "256",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "257",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "258",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "259",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "260",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "261",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "262",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "263",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "264",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "265",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "266",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "267",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "268",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "269",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "271",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "273",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "274",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "275",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "276",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "277",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "278",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "280",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "281",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "282",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "283",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "284",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "285",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "287",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "288",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "289",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "290",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "291",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "292",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "293",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "294",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "295",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "296",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "297",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "298",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "299",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "300",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "301",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "303",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "304",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "305",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "306",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "307",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "308",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "309",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "310",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "311",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "312",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "313",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "314",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "315",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "316",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "317",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "318",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "319",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "320",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "321",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "322",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "323",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "324",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "325",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "327",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "328",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "329",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "331",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "332",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "333",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "334",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "335",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "336",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "337",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "339",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "340",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "341",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "343",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "344",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "346",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "348",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "349",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "350",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "351",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "352",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "353",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "355",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "356",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "357",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "358",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "360",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "362",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "364",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "366",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "368",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "370",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "372",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "374",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "375",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "376",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "377",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "378",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "379",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "380",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "381",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "382",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "383",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "384",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "390",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "391",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "392",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "393",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "394",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "395",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "396",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "397",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "398",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "399",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "400",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "401",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "402",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "403",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "404",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "405",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "8",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "6"
+  }, {
+    "range" : "5",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "9"
+  }, {
+    "range" : "2",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "11"
+  }, {
+    "range" : "14",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "2",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "15"
+  }, {
+    "range" : "14",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "20",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
+  }, {
+    "range" : "14",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "21"
+  }, {
+    "range" : "24",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "14",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "24",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "14",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "28"
+  }, {
+    "range" : "32",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "30"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "37",
+    "attributes" : [ "external", "object" ],
+    "id" : "36"
+  }, {
+    "range" : "41",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "40"
+  }, {
+    "range" : "7",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "42"
+  }, {
+    "range" : "41",
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "8",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "44"
+  }, {
+    "range" : "41",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "48",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "46"
+  }, {
+    "range" : "51",
+    "domain" : "50",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "49"
+  }, {
+    "range" : "53",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "52"
+  }, {
+    "range" : "55",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "54"
+  }, {
+    "range" : "57",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "56"
+  }, {
+    "range" : "55",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "58"
+  }, {
+    "range" : "53",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "60"
+  }, {
+    "range" : "55",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "57",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "63"
+  }, {
+    "range" : "55",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "64"
+  }, {
+    "range" : "57",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "65"
+  }, {
+    "range" : "55",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "69",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "67"
+  }, {
+    "range" : "55",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "72",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
+  }, {
+    "range" : "55",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "73"
+  }, {
+    "range" : "72",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Volume",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "77",
+    "label" : {
+      "IRI-based" : "Volume"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "76"
+  }, {
+    "range" : "79",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "57",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "79",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "35",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
+  }, {
+    "range" : "35",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "84"
+  }, {
+    "range" : "35",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
+  }, {
+    "range" : "50",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "50",
+    "domain" : "91",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "90"
+  }, {
+    "range" : "50",
+    "domain" : "93",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
+    "range" : "50",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "79",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "98",
+    "label" : {
+      "IRI-based" : "ImageProperty"
+    },
+    "domain" : "10",
+    "attributes" : [ "datatype" ],
+    "id" : "97"
+  }, {
+    "range" : "79",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "35",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "89",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "89",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "91",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "110",
+    "domain" : "109",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "range" : "110",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "19",
+    "domain" : "104",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "113"
+  }, {
+    "range" : "19",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "115"
+  }, {
+    "range" : "24",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "24",
+    "domain" : "120",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "range" : "35",
+    "domain" : "122",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "121"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AssociatedWith",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "AssociatedWith"
+    },
+    "domain" : "69",
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "128"
+  }, {
+    "range" : "132",
+    "domain" : "131",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "130"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "93",
+    "label" : {
+      "IRI-based" : "hasThematique"
+    },
+    "domain" : "134",
+    "attributes" : [ "object", "someValues", "transitive", "functional" ],
+    "id" : "133"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasThematique"
+    },
+    "domain" : "134",
+    "attributes" : [ "object", "someValues", "transitive", "functional" ],
+    "id" : "135"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainsIn",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "TrainsIn"
+    },
+    "domain" : "134",
+    "subproperty" : [ "137" ],
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "136"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "139",
+    "label" : {
+      "IRI-based" : "isUsedFor"
+    },
+    "superproperty" : [ "140" ],
+    "domain" : "138",
+    "attributes" : [ "object", "transitive" ],
+    "id" : "137"
+  }, {
+    "range" : "124",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "141"
+  }, {
+    "range" : "123",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "range" : "124",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "146",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "95",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "150",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "95",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "146",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "95",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "153"
+  }, {
+    "range" : "150",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "95",
+    "domain" : "156",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "155"
+  }, {
+    "range" : "150",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "157"
+  }, {
+    "range" : "132",
+    "domain" : "159",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasThematique"
+    },
+    "domain" : "161",
+    "attributes" : [ "object", "someValues", "transitive", "functional" ],
+    "id" : "160"
+  }, {
+    "range" : "148",
+    "domain" : "163",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "162"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasName",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "165",
+    "label" : {
+      "IRI-based" : "hasName"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "164"
+  }, {
+    "range" : "142",
+    "domain" : "167",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "166"
+  }, {
+    "range" : "124",
+    "domain" : "146",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "168"
+  }, {
+    "range" : "123",
+    "domain" : "167",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "169"
+  }, {
+    "range" : "124",
+    "domain" : "167",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "170"
+  }, {
+    "range" : "146",
+    "domain" : "167",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "171"
+  }, {
+    "range" : "124",
+    "domain" : "150",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "172"
+  }, {
+    "range" : "150",
+    "domain" : "167",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "173"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "176",
+    "label" : {
+      "IRI-based" : "SensorsProperty"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "175"
+  }, {
+    "range" : "93",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "177"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainsIn",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "79",
+    "label" : {
+      "IRI-based" : "TrainsIn"
+    },
+    "domain" : "129",
+    "subproperty" : [ "137" ],
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "180"
+  }, {
+    "range" : "93",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "181"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetesIn",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "CompetesIn"
+    },
+    "domain" : "129",
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "183"
+  }, {
+    "range" : "93",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "187",
+    "label" : {
+      "IRI-based" : "isUsedFor"
+    },
+    "superproperty" : [ "140" ],
+    "domain" : "186",
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "185"
+  }, {
+    "range" : "93",
+    "domain" : "174",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "188"
+  }, {
+    "range" : "91",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "93",
+    "domain" : "124",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "190"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "192",
+    "label" : {
+      "IRI-based" : "hasThematique"
+    },
+    "domain" : "161",
+    "attributes" : [ "object", "someValues", "transitive", "functional" ],
+    "id" : "191"
+  }, {
+    "range" : "148",
+    "domain" : "194",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "193"
+  }, {
+    "range" : "124",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "195"
+  }, {
+    "range" : "139",
+    "domain" : "197",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "range" : "124",
+    "domain" : "174",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "198"
+  }, {
+    "range" : "138",
+    "domain" : "186",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "199"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "201",
+    "label" : {
+      "IRI-based" : "hasThematique"
+    },
+    "domain" : "51",
+    "attributes" : [ "object", "someValues", "transitive", "functional" ],
+    "id" : "200"
+  }, {
+    "range" : "138",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "202"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasThematique"
+    },
+    "domain" : "51",
+    "attributes" : [ "object", "someValues", "transitive", "functional" ],
+    "id" : "203"
+  }, {
+    "range" : "187",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "range" : "50",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "205"
+  }, {
+    "range" : "207",
+    "domain" : "161",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasThematique"
+    },
+    "domain" : "187",
+    "attributes" : [ "object", "someValues", "transitive", "functional" ],
+    "id" : "208"
+  }, {
+    "range" : "194",
+    "domain" : "210",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "range" : "182",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "211"
+  }, {
+    "range" : "186",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "212"
+  }, {
+    "range" : "174",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "213"
+  }, {
+    "range" : "186",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "range" : "124",
+    "domain" : "114",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "215"
+  }, {
+    "range" : "139",
+    "domain" : "187",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "range" : "174",
+    "domain" : "182",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "217"
+  }, {
+    "range" : "139",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "range" : "210",
+    "domain" : "220",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "219"
+  }, {
+    "range" : "14",
+    "domain" : "222",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "221"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "139",
+    "label" : {
+      "IRI-based" : "isUsedFor"
+    },
+    "superproperty" : [ "140" ],
+    "domain" : "138",
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "223"
+  }, {
+    "range" : "14",
+    "domain" : "225",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "224"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isAttachedTo",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "129",
+    "label" : {
+      "IRI-based" : "isAttachedTo"
+    },
+    "domain" : "138",
+    "attributes" : [ "object", "someValues", "transitive", "functional" ],
+    "id" : "226"
+  }, {
+    "range" : "125",
+    "domain" : "72",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "227"
+  }, {
+    "range" : "114",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "228"
+  }, {
+    "range" : "125",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "229"
+  }, {
+    "range" : "182",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "range" : "125",
+    "domain" : "68",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "231"
+  }, {
+    "range" : "174",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "range" : "194",
+    "domain" : "220",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "233"
+  }, {
+    "range" : "124",
+    "domain" : "178",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "range" : "14",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "235"
+  }, {
+    "range" : "237",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "range" : "14",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "range" : "237",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "239"
+  }, {
+    "range" : "14",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "range" : "104",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "242"
+  }, {
+    "range" : "14",
+    "domain" : "244",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "243"
+  }, {
+    "range" : "225",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "245"
+  }, {
+    "range" : "222",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "246"
+  }, {
+    "range" : "13",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "247"
+  }, {
+    "range" : "244",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "248"
+  }, {
+    "range" : "26",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "249"
+  }, {
+    "range" : "22",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "250"
+  }, {
+    "range" : "17",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "251"
+  }, {
+    "range" : "222",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "252"
+  }, {
+    "range" : "13",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "253"
+  }, {
+    "range" : "33",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "254"
+  }, {
+    "range" : "225",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "255"
+  }, {
+    "range" : "241",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "256"
+  }, {
+    "range" : "17",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "257"
+  }, {
+    "range" : "22",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "258"
+  }, {
+    "range" : "33",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "259"
+  }, {
+    "range" : "225",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "260"
+  }, {
+    "range" : "244",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "261"
+  }, {
+    "range" : "26",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "262"
+  }, {
+    "range" : "22",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "263"
+  }, {
+    "range" : "222",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "264"
+  }, {
+    "range" : "13",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "265"
+  }, {
+    "range" : "26",
+    "domain" : "222",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "17",
+    "domain" : "222",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "267"
+  }, {
+    "range" : "244",
+    "domain" : "222",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "268"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Intensity",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "270",
+    "label" : {
+      "IRI-based" : "Intensity"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "269"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasParticipatedTo",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "hasParticipatedTo"
+    },
+    "superproperty" : [ "272" ],
+    "domain" : "37",
+    "attributes" : [ "object" ],
+    "id" : "271"
+  }, {
+    "range" : "17",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "273"
+  }, {
+    "range" : "244",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "274"
+  }, {
+    "range" : "33",
+    "domain" : "222",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "275"
+  }, {
+    "range" : "225",
+    "domain" : "222",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "276"
+  }, {
+    "range" : "225",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "277"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasCamView",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "279",
+    "label" : {
+      "IRI-based" : "hasCamView"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "278"
+  }, {
+    "range" : "222",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "280"
+  }, {
+    "range" : "26",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "281"
+  }, {
+    "range" : "33",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "282"
+  }, {
+    "range" : "17",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "283"
+  }, {
+    "range" : "244",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "284"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainingProperty",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "286",
+    "label" : {
+      "IRI-based" : "TrainingProperty"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "285"
+  }, {
+    "range" : "26",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "287"
+  }, {
+    "range" : "222",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "288"
+  }, {
+    "range" : "13",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "289"
+  }, {
+    "range" : "33",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "290"
+  }, {
+    "range" : "225",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "291"
+  }, {
+    "range" : "26",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "292"
+  }, {
+    "range" : "33",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "293"
+  }, {
+    "range" : "17",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "294"
+  }, {
+    "range" : "244",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "295"
+  }, {
+    "range" : "244",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "296"
+  }, {
+    "range" : "26",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "297"
+  }, {
+    "range" : "163",
+    "domain" : "194",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "298"
+  }, {
+    "range" : "17",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "299"
+  }, {
+    "range" : "33",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "300"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isAttachedTo",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "302",
+    "label" : {
+      "IRI-based" : "isAttachedTo"
+    },
+    "domain" : "129",
+    "attributes" : [ "object", "transitive", "functional" ],
+    "id" : "301"
+  }, {
+    "range" : "225",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "303"
+  }, {
+    "range" : "95",
+    "domain" : "222",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "304"
+  }, {
+    "range" : "95",
+    "domain" : "241",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "305"
+  }, {
+    "range" : "95",
+    "domain" : "179",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "306"
+  }, {
+    "range" : "95",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "307"
+  }, {
+    "range" : "95",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "308"
+  }, {
+    "range" : "17",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "309"
+  }, {
+    "range" : "244",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "310"
+  }, {
+    "range" : "95",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "311"
+  }, {
+    "range" : "17",
+    "domain" : "244",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "312"
+  }, {
+    "range" : "244",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "313"
+  }, {
+    "range" : "26",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "314"
+  }, {
+    "range" : "17",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "315"
+  }, {
+    "range" : "26",
+    "domain" : "225",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "316"
+  }, {
+    "range" : "33",
+    "domain" : "225",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "317"
+  }, {
+    "range" : "17",
+    "domain" : "225",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "318"
+  }, {
+    "range" : "244",
+    "domain" : "225",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "319"
+  }, {
+    "range" : "48",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "320"
+  }, {
+    "range" : "47",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "321"
+  }, {
+    "range" : "57",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "322"
+  }, {
+    "range" : "53",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "323"
+  }, {
+    "range" : "53",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "324"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasFormat",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "326",
+    "label" : {
+      "IRI-based" : "hasFormat"
+    },
+    "domain" : "186",
+    "attributes" : [ "datatype" ],
+    "id" : "325"
+  }, {
+    "range" : "59",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "327"
+  }, {
+    "range" : "57",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "328"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasPuce",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "330",
+    "label" : {
+      "IRI-based" : "hasPuce"
+    },
+    "domain" : "129",
+    "attributes" : [ "datatype" ],
+    "id" : "329"
+  }, {
+    "range" : "59",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "331"
+  }, {
+    "range" : "74",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "332"
+  }, {
+    "range" : "48",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "333"
+  }, {
+    "range" : "47",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "334"
+  }, {
+    "range" : "201",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "335"
+  }, {
+    "range" : "39",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "336"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorOffset",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "338",
+    "label" : {
+      "IRI-based" : "hasSensorOffset"
+    },
+    "domain" : "186",
+    "attributes" : [ "datatype" ],
+    "id" : "337"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "197",
+    "label" : {
+      "IRI-based" : "isUsedFor"
+    },
+    "superproperty" : [ "140" ],
+    "domain" : "5",
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "339"
+  }, {
+    "range" : "201",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "340"
+  }, {
+    "range" : "201",
+    "domain" : "342",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "341"
+  }, {
+    "range" : "39",
+    "domain" : "342",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "343"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Frequency",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "345",
+    "label" : {
+      "IRI-based" : "Frequency"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "344"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasHeight",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "347",
+    "label" : {
+      "IRI-based" : "hasHeight"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "346"
+  }, {
+    "range" : "126",
+    "domain" : "342",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "348"
+  }, {
+    "range" : "126",
+    "domain" : "192",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "349"
+  }, {
+    "range" : "342",
+    "domain" : "192",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "350"
+  }, {
+    "range" : "201",
+    "domain" : "192",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "351"
+  }, {
+    "range" : "39",
+    "domain" : "192",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "352"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasVideofile",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "354",
+    "label" : {
+      "IRI-based" : "hasVideofile"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "353"
+  }, {
+    "range" : "48",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "355"
+  }, {
+    "range" : "47",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "356"
+  }, {
+    "range" : "53",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "357"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasDate",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "359",
+    "label" : {
+      "IRI-based" : "hasDate"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "358"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HealthProperty",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "361",
+    "label" : {
+      "IRI-based" : "HealthProperty"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "360"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasLocation",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "363",
+    "label" : {
+      "IRI-based" : "hasLocation"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "362"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasFileSize",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "365",
+    "label" : {
+      "IRI-based" : "hasFileSize"
+    },
+    "domain" : "186",
+    "attributes" : [ "datatype" ],
+    "id" : "364"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageName",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "367",
+    "label" : {
+      "IRI-based" : "ImageName"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "366"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasWeight",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "369",
+    "label" : {
+      "IRI-based" : "hasWeight"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "368"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorID",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "371",
+    "label" : {
+      "IRI-based" : "hasSensorID"
+    },
+    "domain" : "186",
+    "attributes" : [ "datatype" ],
+    "id" : "370"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasTimestamp",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "373",
+    "label" : {
+      "IRI-based" : "hasTimestamp"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "372"
+  }, {
+    "range" : "201",
+    "domain" : "14",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "374"
+  }, {
+    "range" : "127",
+    "domain" : "192",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "375"
+  }, {
+    "range" : "127",
+    "domain" : "342",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "376"
+  }, {
+    "range" : "127",
+    "domain" : "126",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "377"
+  }, {
+    "range" : "127",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "378"
+  }, {
+    "range" : "127",
+    "domain" : "201",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "379"
+  }, {
+    "range" : "134",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "380"
+  }, {
+    "range" : "134",
+    "domain" : "237",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "381"
+  }, {
+    "range" : "134",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "382"
+  }, {
+    "range" : "39",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "383"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSire",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "385",
+    "label" : {
+      "IRI-based" : "hasSire"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "384"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorTime",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "389",
+    "label" : {
+      "IRI-based" : "hasSensorTime"
+    },
+    "domain" : "186",
+    "attributes" : [ "datatype" ],
+    "id" : "390"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "386",
+    "label" : {
+      "IRI-based" : "HorseProperty"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "391"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "hasThematique"
+    },
+    "domain" : "127",
+    "attributes" : [ "object", "someValues", "transitive", "functional" ],
+    "id" : "392"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasRace",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "387",
+    "label" : {
+      "IRI-based" : "hasRace"
+    },
+    "domain" : "129",
+    "attributes" : [ "datatype" ],
+    "id" : "393"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#dependsOn",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "134",
+    "label" : {
+      "IRI-based" : "dependsOn"
+    },
+    "domain" : "79",
+    "subproperty" : [ "271" ],
+    "attributes" : [ "object", "someValues", "transitive" ],
+    "id" : "394"
+  }, {
+    "range" : "41",
+    "domain" : "156",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "395"
+  }, {
+    "range" : "148",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "396"
+  }, {
+    "range" : "156",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "397"
+  }, {
+    "range" : "41",
+    "domain" : "148",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "398"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasThematique"
+    },
+    "domain" : "197",
+    "attributes" : [ "object", "someValues", "transitive", "functional" ],
+    "id" : "399"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "201",
+    "label" : {
+      "IRI-based" : "hasThematique"
+    },
+    "domain" : "197",
+    "attributes" : [ "object", "someValues", "transitive", "functional" ],
+    "id" : "400"
+  }, {
+    "range" : "179",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "401"
+  }, {
+    "range" : "241",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "402"
+  }, {
+    "range" : "156",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "403"
+  }, {
+    "range" : "41",
+    "domain" : "132",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "404"
+  }, {
+    "iri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasRobe",
+    "baseIri" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+    "range" : "388",
+    "label" : {
+      "IRI-based" : "hasRobe"
+    },
+    "domain" : "37",
+    "attributes" : [ "datatype" ],
+    "id" : "405"
+  } ]
+}

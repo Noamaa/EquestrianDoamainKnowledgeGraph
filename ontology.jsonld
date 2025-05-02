@@ -1,0 +1,1251 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic"
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetesIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainsIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#GaitClassifaction"
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Breeding"
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Locomotion"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AssociatedWith"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse"
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainsIn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training"
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseRiding"
+  } ]
+}, {
+  "@id" : "_:genid18",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance"
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseRiding"
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#dependsOn"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Alimentation"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Compertement"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HealthStatus"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Alimentation"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HealthStatus"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#WellBeing"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSaumur"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSociale"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CognitionEquine"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DeveloppementPoulain"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HappyAthlete"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IGGDOP"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Lifes"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RaceAndCare"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SafeFarrier"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SevrageEnPratique"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SoundOfWelfare"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AnimalPoseEstimation"
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSaumur"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSociale"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CognitionEquine"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DeveloppementPoulain"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HappyAthlete"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IGGDOP"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Lifes"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RaceAndCare"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SafeFarrier"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SevrageEnPratique"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SoundOfWelfare"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isAttachedTo"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse"
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Breeding"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Economy"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Health"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseRiding"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#WellBeing"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif"
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfForelimb"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfHindlimb"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Forehead"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Pool"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Scarum"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Sternum"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Withers"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid69",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Caretaker"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Rider"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Veterinarian"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Locomotion"
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetitionStage"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreCompetitionStage"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreparationStage"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TransitionStage"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid78",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortRepos"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortThermique"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacilitéDuMouvement"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#WellBeing"
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Cross"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Dressage"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ShowJumping"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid86",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurMental"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurPhysique"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurSocial"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnicoTactique"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Locomotion"
+  } ]
+}, {
+  "@id" : "_:genid92",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PresicisionTechnique"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteDeplacement"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteGeste"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VarieteMouvement"
+    }, {
+      "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VitesseExécution"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AbreuvementAdapté",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Alimentation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Acceleration",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Alimentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AlimentationAdaptée",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Alimentation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleSwing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleTwist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleVertical",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AnimalPoseEstimation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif"
+  }, {
+    "@id" : "_:genid2"
+  }, {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AssociatedWith",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Asymetric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gait"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSaumur",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSociale",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BonneRelationAnimal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Compertement"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ContactsSociaux"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Breeding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CalculationMethods",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Camera",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalDevices"
+  }, {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfForelimb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfHindlimb",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Caretaker",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CognitionEquine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Compertement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetesIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetitionStage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortRepos",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortThermique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ContactsSociaux",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Compertement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Cross",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DetectionFatigue1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FatigueDetection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DeveloppementPoulain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DimensionBox",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortRepos"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Propreté"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DistanceEvitement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BonneRelationAnimal"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TypeApproche"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Dressage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DuréeDeLiberté",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacilitéDuMouvement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Economy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalDevices",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid5"
+  }, {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Project"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacilitéDuMouvement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurMental",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurPhysique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurSocial",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnicoTactique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "L'analyse en temps réel d'une situation, ainsi que la mise en place d'une stratégie et avoir une connaissance aigue du réglement et des concurrents"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FatigueDetection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif"
+  }, {
+    "@id" : "_:genid7"
+  }, {
+    "@id" : "_:genid8"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Forehead",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Frequency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainingProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FréquencedeLiberté",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacilitéDuMouvement"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gait",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#GaitClassifaction"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#GaitClassifaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif"
+  }, {
+    "@id" : "_:genid9"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gyroscope",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HappyAthlete",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Health",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HealthProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HealthStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heartrate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PhysiologicalIndicators"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid10"
+  }, {
+    "@id" : "_:genid11"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasName" : [ {
+    "@value" : "Dakota"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseRiding",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Human",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IGGDOP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Images"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Images",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Camera"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FatigueDetection"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalDevices"
+  }, {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Intensity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainingProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#KinematicIndiactors",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PhysiologicalIndicators"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Lifes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Locomotion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseRiding"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Morphometrie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CalculationMethods"
+  }, {
+    "@id" : "_:genid13"
+  }, {
+    "@id" : "_:genid14"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PearsonCorreletionCoefficent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#KinematicIndiactors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PhysiologicalIndicators",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Pool",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreCompetitionStage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreparationStage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PresicisionTechnique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Propreté",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortRepos"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteDeplacement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteGeste",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RaceAndCare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Rider",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Human"
+  }, {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RootMeanSquareDeviation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#KinematicIndiactors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SafeFarrier",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Scarum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Sensor1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorID" : [ {
+    "@value" : "SI-001523"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SevrageEnPratique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ShowJumping",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SoundOfWelfare",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid16"
+  }, {
+    "@id" : "_:genid17"
+  }, {
+    "@id" : "_:genid18"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Sternum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#WellBeing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Symetric",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gait"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid19"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainingProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainsIn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TransitionStage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TypeApproche",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BonneRelationAnimal"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VarieteMouvement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Veterinarian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Human"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Video",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Camera"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VitesseExécution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Volume",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainingProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#WellBeing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Withers",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#dependsOn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasCamView",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasDate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasFileSize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasFormat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasHeight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasLocation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasParticipatedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#dependsOn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasPuce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasRace",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasRobe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorID",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorOffset",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorTime",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSire",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasTimestamp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasVideofile",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasWeight",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isAttachedTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalDevices"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainsIn"
+  } ]
+} ]

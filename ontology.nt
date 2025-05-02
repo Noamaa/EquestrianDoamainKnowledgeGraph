@@ -1,0 +1,907 @@
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AssociatedWith
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AssociatedWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AssociatedWith> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetesIn
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetesIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetesIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainsIn
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainsIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainsIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#dependsOn
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#dependsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#dependsOn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasParticipatedTo
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasParticipatedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasParticipatedTo> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#dependsOn> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> <http://www.w3.org/2000/01/rdf-schema#domain> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isAttachedTo
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isAttachedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isAttachedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isAttachedTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isAttachedTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainsIn> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalDevices> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Frequency
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Frequency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Frequency> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainingProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HealthProperty
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HealthProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageName
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Images> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Intensity
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Intensity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Intensity> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainingProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainingProperty
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainingProperty> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Volume
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Volume> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Volume> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainingProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasCamView
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasCamView> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasCamView> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasDate
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasDate> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasFileSize
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasFileSize> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasFileSize> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasFileSize> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasFormat
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasFormat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasFormat> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasFormat> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasHeight
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasHeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasHeight> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasLocation
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasLocation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasLocation> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasName
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasName> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasPuce
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasPuce> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasPuce> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasPuce> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasPuce> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasRace
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasRace> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasRace> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasRace> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasRobe
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasRobe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasRobe> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorID
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorID> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorID> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorID> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorOffset
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorOffset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorOffset> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorOffset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorTime
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorTime> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorTime> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorTime> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSire
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSire> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSire> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasTimestamp
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasTimestamp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasTimestamp> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasVideofile
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasVideofile> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasVideofile> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ImageProperty> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasWeight
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasWeight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasWeight> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AbreuvementAdapté
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AbreuvementAdapté> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AbreuvementAdapté> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Alimentation> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Acceleration
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Acceleration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Acceleration> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Alimentation
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Alimentation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Alimentation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AlimentationAdaptée
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AlimentationAdaptée> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AlimentationAdaptée> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Alimentation> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleSwing
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleSwing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleSwing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleTwist
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleTwist> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleTwist> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleVertical
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleVertical> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AngleVertical> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AnimalPoseEstimation
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AnimalPoseEstimation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AnimalPoseEstimation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AnimalPoseEstimation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseRiding> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AnimalPoseEstimation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid3 .
+_:genid3 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#WellBeing> .
+_:genid3 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Asymetric
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Asymetric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Asymetric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gait> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSaumur
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSaumur> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSaumur> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSociale
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSociale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSociale> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BonneRelationAnimal
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BonneRelationAnimal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BonneRelationAnimal> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Compertement> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BonneRelationAnimal> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ContactsSociaux> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Breeding
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Breeding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Breeding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CalculationMethods
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CalculationMethods> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Camera
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Camera> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Camera> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalDevices> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Camera> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid4 .
+_:genid4 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AnimalPoseEstimation> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfForelimb
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfForelimb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfForelimb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfHindlimb
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfHindlimb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfHindlimb> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Caretaker
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Caretaker> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Caretaker> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Human> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CognitionEquine
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CognitionEquine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CognitionEquine> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Compertement
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Compertement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Compertement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetitionStage
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetitionStage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetitionStage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortRepos
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortRepos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortRepos> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortThermique
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortThermique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortThermique> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ContactsSociaux
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ContactsSociaux> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ContactsSociaux> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Compertement> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Cross
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Cross> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Cross> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Cross> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DeveloppementPoulain
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DeveloppementPoulain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DeveloppementPoulain> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DimensionBox
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DimensionBox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DimensionBox> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortRepos> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DimensionBox> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Propreté> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DistanceEvitement
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DistanceEvitement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DistanceEvitement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BonneRelationAnimal> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DistanceEvitement> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TypeApproche> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Dressage
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Dressage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Dressage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Dressage> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DuréeDeLiberté
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DuréeDeLiberté> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DuréeDeLiberté> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacilitéDuMouvement> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Economy
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Economy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Economy> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalDevices
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalDevices> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalDevices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid5 .
+_:genid5 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse> .
+_:genid5 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isAttachedTo> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalDevices> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid6 .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif> <http://www.w3.org/2000/01/rdf-schema#label> "Project" .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacilitéDuMouvement
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacilitéDuMouvement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacilitéDuMouvement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurMental
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurMental> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurMental> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurPhysique
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurPhysique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurPhysique> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurSocial
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurSocial> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurSocial> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnicoTactique
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnicoTactique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnicoTactique> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnicoTactique> <http://www.w3.org/2000/01/rdf-schema#comment> "L'analyse en temps réel d'une situation, ainsi que la mise en place d'une stratégie et avoir une connaissance aigue du réglement et des concurrents" .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FatigueDetection
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FatigueDetection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FatigueDetection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FatigueDetection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Locomotion> .
+_:genid7 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FatigueDetection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid8 .
+_:genid8 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#WellBeing> .
+_:genid8 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Forehead
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Forehead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Forehead> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FréquencedeLiberté
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FréquencedeLiberté> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FréquencedeLiberté> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacilitéDuMouvement> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gait
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gait> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gait> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#GaitClassifaction> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gait> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#GaitClassifaction
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#GaitClassifaction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#GaitClassifaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalObjectif> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#GaitClassifaction> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid9 .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Locomotion> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gyroscope
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gyroscope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gyroscope> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HappyAthlete
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HappyAthlete> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HappyAthlete> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Health
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Health> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Health> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HealthStatus
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HealthStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HealthStatus> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heartrate
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heartrate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heartrate> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PhysiologicalIndicators> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid10 .
+_:genid10 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent> .
+_:genid10 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetesIn> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid11 .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainsIn> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseRiding
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseRiding> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseRiding> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Human
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Human> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IGGDOP
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IGGDOP> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IGGDOP> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Images
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Images> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Images> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Camera> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FatigueDetection> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ExperimentalDevices> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#GaitClassifaction> .
+_:genid12 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#isUsedFor> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#KinematicIndiactors
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#KinematicIndiactors> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#KinematicIndiactors> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#KinematicIndiactors> <http://www.w3.org/2002/07/owl#disjointWith> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PhysiologicalIndicators> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Lifes
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Lifes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Lifes> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Locomotion
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Locomotion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Locomotion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseRiding> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Morphometrie
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Morphometrie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Morphometrie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CalculationMethods> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Morphometrie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid13 .
+_:genid13 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Breeding> .
+_:genid13 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Morphometrie> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid14 .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Locomotion> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PearsonCorreletionCoefficent
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PearsonCorreletionCoefficent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PearsonCorreletionCoefficent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#KinematicIndiactors> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PhysiologicalIndicators
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PhysiologicalIndicators> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PhysiologicalIndicators> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Indicators> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Pool
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Pool> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Pool> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreCompetitionStage
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreCompetitionStage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreCompetitionStage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreparationStage
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreparationStage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreparationStage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PresicisionTechnique
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PresicisionTechnique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PresicisionTechnique> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Propreté
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Propreté> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Propreté> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortRepos> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteDeplacement
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteDeplacement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteDeplacement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteGeste
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteGeste> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteGeste> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RaceAndCare
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RaceAndCare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RaceAndCare> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Rider
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Rider> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Rider> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Human> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Rider> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse> .
+_:genid15 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#AssociatedWith> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RootMeanSquareDeviation
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RootMeanSquareDeviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RootMeanSquareDeviation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#KinematicIndiactors> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SafeFarrier
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SafeFarrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SafeFarrier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Scarum
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Scarum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Scarum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorMeasurements> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SevrageEnPratique
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SevrageEnPratique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SevrageEnPratique> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ShowJumping
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ShowJumping> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ShowJumping> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ShowJumping> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SoundOfWelfare
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SoundOfWelfare> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SoundOfWelfare> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid16 .
+_:genid16 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training> .
+_:genid16 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TrainsIn> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid17 .
+_:genid17 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseRiding> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid18 .
+_:genid18 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurPerformance> .
+_:genid18 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent> <http://www.w3.org/2000/01/rdf-schema#label> "Event" .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Sternum
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Sternum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Sternum> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Studies> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#WellBeing> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Symetric
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Symetric> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Symetric> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Gait> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid19 .
+_:genid19 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic> .
+_:genid19 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasThematique> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid20 .
+_:genid20 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SportingEvent> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#dependsOn> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TransitionStage
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TransitionStage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TransitionStage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Training> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TypeApproche
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TypeApproche> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TypeApproche> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BonneRelationAnimal> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VarieteMouvement
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VarieteMouvement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VarieteMouvement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Veterinarian
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Veterinarian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Veterinarian> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Human> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Video
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Video> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Video> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Camera> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VitesseExécution
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VitesseExécution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VitesseExécution> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#WellBeing
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#WellBeing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#WellBeing> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Topic> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Withers
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Withers> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Withers> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SensorsPosition> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DetectionFatigue1
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DetectionFatigue1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DetectionFatigue1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FatigueDetection> .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse1
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Horse1> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasName> "Dakota" .
+# 
+# http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Sensor1
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Sensor1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Sensor1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#InertialSensors> .
+<http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Sensor1> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#hasSensorID> "SI-001523" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid21 <http://www.w3.org/2002/07/owl#members> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HealthStatus> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Compertement> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Alimentation> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid26 <http://www.w3.org/2002/07/owl#members> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Heberegement> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HealthStatus> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Alimentation> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid30 <http://www.w3.org/2002/07/owl#members> _:genid42 .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid37 .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SoundOfWelfare> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SevrageEnPratique> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SafeFarrier> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RaceAndCare> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Lifes> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IndicateurBienetre> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IGGDOP> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HappyAthlete> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DeveloppementPoulain> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CognitionEquine> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSociale> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSaumur> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid43 <http://www.w3.org/2002/07/owl#members> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid53 .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SoundOfWelfare> .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SevrageEnPratique> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#SafeFarrier> .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#RaceAndCare> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Lifes> .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#IGGDOP> .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HappyAthlete> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#DeveloppementPoulain> .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CognitionEquine> .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSociale> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#BienetreSaumur> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid55 <http://www.w3.org/2002/07/owl#members> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#WellBeing> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#HorseRiding> .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Health> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Economy> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Breeding> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid61 <http://www.w3.org/2002/07/owl#members> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid65 .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Withers> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Sternum> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Scarum> .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Pool> .
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Forehead> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfHindlimb> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CanonOfForelimb> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid69 <http://www.w3.org/2002/07/owl#members> _:genid72 .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Veterinarian> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Rider> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Caretaker> .
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid73 <http://www.w3.org/2002/07/owl#members> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#TransitionStage> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreparationStage> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PreCompetitionStage> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#CompetitionStage> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid78 <http://www.w3.org/2002/07/owl#members> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacilitéDuMouvement> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortThermique> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ConfortRepos> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid82 <http://www.w3.org/2002/07/owl#members> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#ShowJumping> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Dressage> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#Cross> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid86 <http://www.w3.org/2002/07/owl#members> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnique> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurTechnicoTactique> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurSocial> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurPhysique> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#FacteurMental> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid92 <http://www.w3.org/2002/07/owl#members> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VitesseExécution> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#VarieteMouvement> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteGeste> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#QualiteDeplacement> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/noamaadra/ontologies/2024/2/Horses#PresicisionTechnique> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
