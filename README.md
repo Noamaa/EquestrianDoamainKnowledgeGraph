@@ -37,7 +37,7 @@ You can:
 
 ###  License
 
-
+Equestrian Doamain Knowledge Graph © 2025 is licensed under CC BY-NC-SA 4.0 
 
 ---
 
